@@ -12,17 +12,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="stylesheet" href="/css/animate.min.css">
-		<link rel="stylesheet" href="/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/css/font-awesome.min.css">
-		<link rel='stylesheet' href="/css/open-sans.css">
-		<link rel="stylesheet" href="/css/templatemo-style.css">
-		<script src="/js/jquery.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-        <script src="/js/jquery.singlePageNav.min.js"></script>
-		<script src="/js/typed.js"></script>
-		<script src="/js/wow.min.js"></script>
-		<script src="/js/custom.js"></script>
+		<link rel="stylesheet" href="${urls.getForLookupPath('/static/css/animate.min.css')}">
+		<link rel="stylesheet" href="${urls.getForLookupPath('/static/css/bootstrap.min.css')}">
+		<link rel="stylesheet" href="${urls.getForLookupPath('/static/css/font-awesome.min.css')}">
+		<link rel='stylesheet' href="${urls.getForLookupPath('/static/css/open-sans.css')}">
+		<link rel="stylesheet" href="${urls.getForLookupPath('/static/css/templatemo-style.css')}">
+		<script src="${urls.getForLookupPath('/static/js/jquery.js')}"></script>
+		<script src="${urls.getForLookupPath('/static/js/bootstrap.min.js')}"></script>
+        <script src="${urls.getForLookupPath('/static/js/jquery.singlePageNav.min.js')}"></script>
+		<script src="${urls.getForLookupPath('/static/js/typed.js')}"></script>
+		<script src="${urls.getForLookupPath('/static/js/wow.min.js')}"></script>
+		<script src="${urls.getForLookupPath('/static/js/custom.js')}"></script>
 	</head>
 	<body id="top">
 
@@ -165,7 +165,7 @@
     				</div>
     				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
     					<div class="team-wrapper">
-    						<img src="images/team-img1.jpg" class="img-responsive" alt="team img 1">
+    						<img src="/static/images/team-img1.jpg" class="img-responsive" alt="team img 1">
     							<div class="team-des">
     								<h4>TRACY</h4>
     								<span>Designer</span>
@@ -175,7 +175,7 @@
     				</div>
     				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
     					<div class="team-wrapper">
-    						<img src="images/team-img2.jpg" class="img-responsive" alt="team img 2">
+    						<img src="/static/images/team-img2.jpg" class="img-responsive" alt="team img 2">
     							<div class="team-des">
     								<h4>MARY</h4>
     								<span>Developer</span>
@@ -185,7 +185,7 @@
     				</div>
     				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
     					<div class="team-wrapper">
-    						<img src="images/team-img3.jpg" class="img-responsive" alt="team img 3">
+    						<img src="/static/images/team-img3.jpg" class="img-responsive" alt="team img 3">
     							<div class="team-des">
     								<h4>JULIA</h4>
     								<span>Director</span>
@@ -195,7 +195,7 @@
     				</div>
     				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
     					<div class="team-wrapper">
-    						<img src="images/team-img4.jpg" class="img-responsive" alt="team img 4">
+    						<img src="/static/images/team-img4.jpg" class="img-responsive" alt="team img 4">
     							<div class="team-des">
     								<h4>LINDA</h4>
     								<span>Manager</span>
@@ -244,7 +244,7 @@
     				</div>
     				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-    					   <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
+    					   <img src="/static/images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
                                 <div class="portfolio-overlay">
                                     <h4>Project One</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
@@ -254,7 +254,7 @@
     				</div>
     				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-                           <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
+                           <img src="/static/images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
                                 <div class="portfolio-overlay">
                                     <h4>Project Two</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
@@ -264,7 +264,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-                           <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
+                           <img src="/static/images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
                                 <div class="portfolio-overlay">
                                     <h4>Project Three</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
@@ -274,7 +274,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-                           <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
+                           <img src="/static/images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
                                 <div class="portfolio-overlay">
                                     <h4>Project Four</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
@@ -284,7 +284,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-                           <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
+                           <img src="/static/images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
                                 <div class="portfolio-overlay">
                                     <h4>Project Five</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
@@ -294,7 +294,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-                           <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
+                           <img src="/static/images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
                                 <div class="portfolio-overlay">
                                     <h4>Project Six</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
@@ -304,7 +304,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-                           <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
+                           <img src="/static/images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
                                 <div class="portfolio-overlay">
                                     <h4>Project Seven</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
@@ -314,7 +314,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-                           <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
+                           <img src="/static/images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
                                 <div class="portfolio-overlay">
                                     <h4>Project Eight</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
